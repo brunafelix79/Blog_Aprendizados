@@ -66,10 +66,10 @@ def get_post_by_title(cursor, title):
 def main():
     # String de conexão com o banco de dados
     conn_str = ('DRIVER={SQL Server};'
-                'SERVER=DESKTOP-4HA0FVH;'
+                'SERVER=;'
                 'DATABASE=blog_posts;'
-                'UID=sa;'
-                'PWD=123456;'
+                'UID=;'
+                'PWD=;'
                 'Trusted_Connection=no;')
 
     try:
